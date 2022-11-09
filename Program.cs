@@ -22,5 +22,8 @@ for (int i = 0; i < arrey.Length; i++)
         j++;
     }
 }
-Console.WriteLine(String.Join(", ", arrey));
-Console.WriteLine(String.Join(", ", result));
+Console.Write("[");
+Console.Write(String.Join(", ", arrey));
+Console.Write($"] -> [");
+Console.Write(String.Join(", ", result));
+Console.Write($"]");
